@@ -1,0 +1,78 @@
+body{
+	font-family:Verdana, sans-serif;
+}
+
+#map{
+	position: absolute;
+	border: 0;
+	left: 0px;
+	top: 150px;
+	height: calc(100% - 150px);
+	width: 100%;
+}
+
+
+#top{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 149px;
+	background: pink;
+	background: url('../images/bodytile.jpg');
+	background-repeat: repeat;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	top: calc(100% - 50px);
+	left: 0px;
+	height: 50px;
+	background: pink;
+	background: url('../images/bodytile.jpg');
+	background-repeat: repeat;
+	border-top: 2px solid rgba(0 ,0,0,0.5);
+}
+
+#driverButton , #adminButton{
+	position: absolute;
+	top: 0px;
+	font-weight: 400;
+	right: 150px;
+	width: 95px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background: lightpink;
+	color: white;
+	font-size: 12px;
+	padding: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#driverButton:hover , #adminButton:hover{
+	background: pink;
+}
+#adminButton{
+	right: 20px;
+}
+#ismobile{
+	display: false;
+}
+#title{
+	position:absolute;
+	left: 50px;
+	top: 40px;
+	color: lightblue;
+	font-size: 36px;
+}
+
+@media screen and (min-device-width: 20px){
+	#ismobile{
+		display: block;
+	}
+}

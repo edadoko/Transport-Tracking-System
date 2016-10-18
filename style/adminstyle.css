@@ -1,0 +1,194 @@
+		body {
+			background: url("../images/bodytile.jpg");
+			background-repeat: repeat;
+		}
+		#banner{
+			position:absolute;
+			left:42%;
+			top:50px;
+			font-size:26px;
+			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			color: lightblue;
+		}
+		#welcome{
+			margin-top: 5%;
+			margin-left: 5%;
+			font-size:16px;
+			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		#greenT{
+			color: green;
+		}
+		#redT{
+			position:absolute;
+			top:240px;
+			color: red;
+		}
+
+		#logForm{
+			position:absolute;
+			width:240px;
+			height:180px;
+			left:39%;
+			top:120px;
+			background: lightblue;
+			border:1px solid slategray;
+		}
+		#log{
+			position: absolute;
+			top: 40px;
+			width:100%;
+		}
+		#username , #password{
+			border:0;
+			width:90%;
+			margin-left: 10px;
+			font-size:12px;
+			height:30px;
+			text-align:center;
+			
+		}
+		
+		#cdriver-form{
+			position: absolute;
+			left:0px;
+			top:20px;
+		}
+		#ddriver-form{
+			position: absolute;
+			left:400px;
+			top:20px;
+		}
+		#cstation-form{
+			position: absolute;
+			left:0px;
+			top:300px;
+		}
+		#dstation-form{
+			position: absolute;
+			left:400px;
+			top:300px;
+		}
+		
+		#drivername, #busName, #driverpassword, #stationName , #lat, #long{
+			font-size:12px;
+			text-align:center;
+			border: 1px solid gray;
+			height:25px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}	
+		#driverpassword{
+			margin-top: 0px;
+		}	
+		#drivers, #locations{
+			font-size:19px;
+			text-align:center;
+		}
+	
+
+		#title{
+			font-size: 22px;
+			color: lightblue;
+			margin-left: 10px;
+			text-wrap: none;
+		}
+		#link{
+			text-decoration:none;
+			color: darkslateblue;
+			font-weight: bold;
+		}
+		#link:hover{
+			color: slateblue;
+		}
+		
+	
+		#sub ,#logout,  #subC, #sub3, #sub4{
+			position: absolute;
+			height:30px;
+			border:0;
+			background: pink;
+			color: white;
+			width:90%;
+			font-size:12px;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		#logout{
+			background: transparent;
+			color: black;
+			width: 100px;
+			position: fixed;
+			right: 10px;
+			bottom: 10px;
+			margin: 0;
+		}#logout:hover{
+			color: blue;
+		}
+		
+		#sub:hover ,#sub4:hover, #subC:hover{
+			background: lightpink;
+		}
+		
+		.margin-10{
+			margin-top: 0px;
+		}
+
+
+		#home{
+			padding: 0px;
+			text-decoration: none;
+			color: gray;
+			//background-color: transparent;
+			//width: 30px;
+			text-align: center; 
+			font-weight: 400;
+			font-size: 12px;
+		}
+		#footer{
+			position: absolute;
+			bottom:10px;
+			left: 31%;
+			width: 400px;
+		}
+		@media screen and (max-device-width: 768px){
+			#banner{
+				position:absolute;
+				left:30%;
+			}
+			#logform{
+				left: 20%;
+			}
+			#drivername{
+				position: absolute;
+				left: 10px;
+				top: 50px;
+				margin: 0;
+			}		
+			#driverpassword{
+				position: absolute;
+				left: 10px;
+				top: 90px;
+				margin: 0;
+			}
+			#sub{
+				top:100px;
+			}#logout{
+				position: fixed;
+				right: 10px;
+				bottom: 10px;
+				margin: 0;
+			}#subC{
+				position: absolute;
+				left: 12px;
+				top: 150px;
+				margin: 0;
+				}
+			#footer{
+				position: absolute;
+				bottom:10px;
+				left: 5%;
+				width: 320px;
+			}
+		}
+		
